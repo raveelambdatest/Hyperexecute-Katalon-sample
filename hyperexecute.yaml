@@ -1,0 +1,12 @@
+version: 0.1
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win
+matrix:
+  TestSuite: ["latest"]
+testSuites:
+  - katalonc `-noSplash `-runMode=console `-projectPath="G:\foreman\Hyperexecute_Sample\Hyperexecute_Sample.prj" `-retry=0 `-testSuitePath="Test Suites/FirstTestSutie" `-browserType="firefox" `-executionProfile="default" `-apiKey="aaa9402b-6a2e-4621-a4c3-05fe356f5aad" `-`-config `-webui.autoUpdateDrivers=true
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true

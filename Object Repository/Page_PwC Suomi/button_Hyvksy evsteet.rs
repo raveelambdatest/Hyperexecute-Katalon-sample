@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Hyvksy evsteet</name>
+   <tag></tag>
+   <elementGuidId>c2d1818f-b3ab-48a9-88e1-b72c5b476572</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='onetrust-accept-btn-handler']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#onetrust-accept-btn-handler</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d007d72d-2952-4d30-af40-2a3b2d5673a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>onetrust-accept-btn-handler</value>
+      <webElementGuid>23abb617-f6fd-4a1f-933d-16d5fc8519fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hyväksy evästeet</value>
+      <webElementGuid>fbd7f13d-3139-487b-8b3a-c1abe55948a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;onetrust-accept-btn-handler&quot;)</value>
+      <webElementGuid>f2535c8f-243c-479c-abfc-ef186f1247f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='onetrust-accept-btn-handler']</value>
+      <webElementGuid>88b9e54d-5bef-49a6-96ec-4fed2b46c2f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='onetrust-button-group']/div/button[2]</value>
+      <webElementGuid>4c9e8dfd-f317-4a00-8506-2c871182491c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vain välttämättömät evästeet'])[1]/following::button[1]</value>
+      <webElementGuid>5d0d2ea6-6495-43dd-8232-87dd3e8c5569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='linkistä.'])[1]/following::button[2]</value>
+      <webElementGuid>7a5e74d8-5e31-40ac-b1dd-163323975f09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evästeasetukset'])[1]/preceding::button[1]</value>
+      <webElementGuid>a1d28e06-1ca7-40bc-84c6-ca3c73b45191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yksityisyysasetukset'])[1]/preceding::button[2]</value>
+      <webElementGuid>6cf29af9-a1f0-4d08-b6d6-56ee112b94df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hyväksy evästeet']/parent::*</value>
+      <webElementGuid>9e312a4c-46df-4efc-a182-04eeef006f35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>3bba2455-87e1-4381-9c37-a7ca2a2e6943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'onetrust-accept-btn-handler' and (text() = 'Hyväksy evästeet' or . = 'Hyväksy evästeet')]</value>
+      <webElementGuid>57874f55-c75c-489e-87fc-ad1bc157348d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
