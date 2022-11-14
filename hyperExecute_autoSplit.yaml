@@ -7,10 +7,9 @@ maxRetries: 1
 runson: win
 pre: 
 
- - pip install requests
- - python installer.py
+ - echo "Test"
 
-tunnel: true
+tunnel: false
 tunnelOpts:
   global: true
 autosplit: true
@@ -18,5 +17,5 @@ concurrency: 2
 testDiscovery:
   type: raw
   mode: dynamic
-  command: grep -lr 'testSuiteGuid' */*.ts | sed 's/:.*//' | sed 's/.ts//g'
-testRunnerCommand:  katalonc `-noSplash `-runMode=console `-projectPath="G:\foreman\Hyperexecute_Sample\Hyperexecute_Sample.prj" `-retry=0 `-testSuitePath="$test" `-browserType="firefox" `-executionProfile="default" `-apiKey="aaa9402b-6a2e-4621-a4c3-05fe356f5aad" `-`-config `-webui.autoUpdateDrivers=true
+  command: grep -lr 'testSuiteGuid' */*.ts | sed 's/...$//g' 
+testRunnerCommand:  katalonc `-noSplash `-runMode=console `-projectPath="$Env:HYPEREXECUTE_WORKING_DIR\Hyperexecute_Sample.prj" `-retry=0 `-testSuitePath="$test" `-browserType="firefox" `-executionProfile="default" `-apiKey="6f70af96-de52-421b-bf79-66a40af568e7" `-`-config `-webui.autoUpdateDrivers=true
