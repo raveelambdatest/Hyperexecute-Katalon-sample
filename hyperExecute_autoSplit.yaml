@@ -20,4 +20,4 @@ testDiscovery:
   type: raw
   mode: dynamic
   command: grep -lr 'testSuiteGuid' */*.ts | sed 's/...$//g' 
-testRunnerCommand: set LT_BUILD_NAME=${LT_BUILD_NAME}; echo ${LT_BUILD_NAME}; katalonc `-noSplash `-runMode=console `-projectPath="$Env:HYPEREXECUTE_WORKING_DIR\Hyperexecute_Sample.prj" `-retry=0 `-testSuitePath="$test" `-browserType="firefox" `-executionProfile="default" `-apiKey="6f70af96-de52-421b-bf79-66a40af568e7" `-`-config `-webui.autoUpdateDrivers=true
+testRunnerCommand: set LT_BUILD_NAME=${LT_BUILD_NAME}; echo ${LT_BUILD_NAME}; katalonc `-noSplash `-runMode=console `-projectPath="$Env:HYPEREXECUTE_WORKING_DIR\Hyperexecute_Sample.prj" `-retry=0 `-testSuitePath="$test" `-browserType="firefox" `-executionProfile="default" `-apiKey="" `-`-config `-webui.autoUpdateDrivers=true
