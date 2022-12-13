@@ -38,6 +38,8 @@ class LambdaListeners {
         
         
         //To set the test name at LambdaTest.
+        RunConfiguration.setDriverPreferencesProperty("Remote","build", System.getenv("LT_BUILD_NAME"));
+
         RunConfiguration.setDriverPreferencesProperty("Remote", "name", testCaseContext.getTestCaseId());
         if (suiteContext != null){
             RunConfiguration.setDriverPreferencesProperty("Remote","build", System.getenv("LT_BUILD_NAME"));
