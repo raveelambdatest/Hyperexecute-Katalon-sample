@@ -38,7 +38,7 @@ class LambdaListener {
         
         
         //To set the test name at LambdaTest.
-		String buildName=System.getenv("LT_BUILD_NAME");
+		String buildName=System.getenv('LT_BUILD_NAME');
 		RunConfiguration.setDriverPreferencesProperty("Remote","build", buildName);
 		println(buildName);
         RunConfiguration.setDriverPreferencesProperty("Remote", "name", testCaseContext.getTestCaseId());
@@ -80,7 +80,7 @@ class LambdaListener {
     @BeforeTestSuite
     def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
         suiteContext=testSuiteContext
-		String buildName=System.getenv("LT_BUILD_NAME");
+		String buildName=System.getenv( 'LT_BUILD_NAME' );
 		println(buildName);
         //To Set the build Name at LambdaTest.
         RunConfiguration.setDriverPreferencesProperty("Remote","build", buildName);
