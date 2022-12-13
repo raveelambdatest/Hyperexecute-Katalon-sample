@@ -8,6 +8,8 @@ runson: win
 pre: 
 
  - echo "Test"
+ - set LT_BUILD_NAME=${LT_BUILD_NAME}
+ - echo %LT_BUILD_NAME%
 
 tunnel: false
 tunnelOpts:
