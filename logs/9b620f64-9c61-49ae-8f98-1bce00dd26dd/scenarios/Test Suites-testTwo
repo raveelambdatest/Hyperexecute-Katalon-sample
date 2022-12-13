@@ -1,0 +1,394 @@
+Katalon workspace folder is set to default location: D:\Temp\1\session-5318a181
+Starting Groovy-Eclipse compiler resolver. Specified compiler level: unspecified
+137 org.codehaus.groovy_2.4.20.v202009301404-e2006-RELEASE ACTIVE
+
+
+INFO: Katalon Version: 8.3.5
+INFO: Command-line arguments: -runMode=console -projectPath=D:\foreman\Hyperexecute-Katalon-sample\Hyperexecute_Sample.prj -retry=0 -testSuitePath=Test Suites/testTwo -browserType=firefox -executionProfile=default -apiKey=******** --config -webui.autoUpdateDrivers=true
+INFO: User working dir: D:\foreman\Hyperexecute-Katalon-sample
+INFO: Error log: D:/Temp/1/session-5318a181/.metadata/.log
+INFO: Katalon KatOne server URL: https://admin.katalon.com
+INFO: Katalon TestOps server URL: https://testops.katalon.io
+INFO: Katalon Store server URL: https://store.katalon.com
+INFO: User home: C:\Users\ltuser.ghtestVM
+INFO: Java vendor: Azul Systems, Inc.
+INFO: Java version: 1.8.0_282
+INFO: Local OS: Windows Server 2016 64bit
+INFO: CPU load: 0%
+INFO: Total memory: 8191 MB
+INFO: Free memory: 5689 MB
+Start getting machine ID on Windows
+Start appending additional signatures
+hardwareSerialNumber 
+osDependentUsername ltuser
+End appending additional signatures 174efcbc-1370-4906-a886-3517019fff69__ltuser
+End getting machine ID on Windows 1f89ef714514083b856916bd1aa73fa8
+INFO: Machine ID: 1f89ef714514083b856916bd1aa73fa8
+
+
+Activating...
+Start activating offline...
+Search for valid offline licenses in folder: C:\Users\ltuser.ghtestVM\.katalon\license
+The number of valid offline licenses: 0
+Start activating online...
+Delete folder: bin
+Delete folder: Libs
+Cleaning up workspace
+Opening project file: D:\foreman\Hyperexecute-Katalon-sample\Hyperexecute_Sample.prj
+Warning! Please run Katalon execution command outside of the project folder.
+Generating global variables...
+Project 'Hyperexecute_Sample' opened
+Start reloading plugins...
+Katalon version: 8.3.5
+Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=8.3.5&appType=ENGINE&licenseType=ENTERPRISE
+Plugin info: {
+  "productId": 2,
+  "name": "Basic Search For Dynamic Test Suite",
+  "id": 206583
+}
+Plugin info: {
+  "productId": 267,
+  "name": "Sealights Integration",
+  "id": 203986
+}
+Plugin name: Basic Search For Dynamic Test Suite. Is online: true. Plugin location: C:\Program Files\Katalon_Studio_Engine_Windows_64-8.3.5\configuration\plugin\install\206583\1.0.4\katalon-studio-dynamic-execution-plugin-1.0.7.jar.
+Plugin name: Sealights Integration. Is online: true. Plugin location: C:\Program Files\Katalon_Studio_Engine_Windows_64-8.3.5\configuration\plugin\install\203986\1.1.0\katalon-studio-sealights-plugin-1.1.jar.
+Sealights pliugin has been activated. The plugin ID is: com.katlon.plugin.katalon-studio-sealights-plugin
+Plugin "Basic Search For Dynamic Test Suite" has been installed.
+Plugin "Sealights Integration" has been installed.
+Start check license task
+
+Tue Nov 29 15:29:34 UTC 2022
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 8: unable to resolve class internal.GlobalVariable
+ @ line 8, column 8.
+   import internal.GlobalVariable as GlobalVariable
+          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:314)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:997)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:623)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:572)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:677)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:689)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:573)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:612)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:583)
+	at com.kms.katalon.execution.webservice.VariableEvaluator.evaluate(VariableEvaluator.java:48)
+	at com.kms.katalon.execution.util.MailUtil.overrideEmailSettings(MailUtil.java:436)
+	at com.kms.katalon.execution.console.entity.TestSuiteLauncherOptionParser.internallyBuildRunConfig(TestSuiteLauncherOptionParser.java:366)
+	at com.kms.katalon.execution.console.entity.TestSuiteLauncherOptionParser.buildRunConfig(TestSuiteLauncherOptionParser.java:325)
+	at com.kms.katalon.execution.console.entity.TestSuiteLauncherOptionParser.getConsoleLauncher(TestSuiteLauncherOptionParser.java:303)
+	at com.kms.katalon.execution.console.ConsoleExecutor.execute(ConsoleExecutor.java:74)
+	at com.kms.katalon.execution.console.ConsoleMain.launch(ConsoleMain.java:528)
+	at com.kms.katalon.console.application.ConsoleApplicationStarter.start(ConsoleApplicationStarter.java:37)
+	at com.kms.katalon.application.Application.runConsole(Application.java:125)
+	at com.kms.katalon.application.Application.start(Application.java:88)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/katalon/test-reports/update-result?projectId=634201, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+INFO: KATALON_JAVA_HOME: null
+
+--------------------------------------------------------------------------------
+Test Suites/testTwo - firefox - 20221129_152934..........................0/2(0%)
+--------------------------------------------------------------------------------
+
+2022-11-29 15:29:37.551 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/testTwo
+2022-11-29 15:29:37.593 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ltuser - 10.5.32.32
+2022-11-29 15:29:37.594 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows Server 2016 64bit
+2022-11-29 15:29:37.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.5.32.32
+2022-11-29 15:29:37.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 8.3.5.208
+2022-11-29 15:29:37.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2022-11-29 15:29:37.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FirstTEstcase
+2022-11-29 15:29:38.172 DEBUG testcase.FirstTEstcase                   - 1: setDriverPreferencesProperty("Remote", "build", "Test")
+2022-11-29 15:29:38.173 DEBUG testcase.FirstTEstcase                   - 2: sendRequest(findTestObject("IPAPIRequest"))
+2022-11-29 15:29:39.986 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\foreman\Hyperexecute-Katalon-sample\Reports\20221129_152933\testTwo\20221129_152934\requests\main\0.har
+2022-11-29 15:29:40.059 DEBUG testcase.FirstTEstcase                   - 3: openBrowser("")
+2022-11-29 15:29:40.285 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'firefox']
+2022-11-29 15:29:40.286 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', 'latest']
+2022-11-29 15:29:40.287 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'win10']
+2022-11-29 15:29:40.287 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['build', 'Test']
+2022-11-29 15:29:40.288 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['name', 'Sampletest']
+2022-11-29 15:29:40.288 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['visual', 'true']
+2022-11-29 15:29:40.288 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['console', 'true']
+2022-11-29 15:29:40.288 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['network', 'true']
+2022-11-29 15:29:40.291 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'hub.lambdatest.com/wd/hub' with type 'Selenium'
+2022-11-29 15:29:40.469 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+
+--------------------------------------------------------------------------------
+Test Suites/testTwo - firefox - 20221129_152934..........................0/2(0%)
+--------------------------------------------------------------------------------
+
+Nov 29, 2022 3:29:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-11-29 15:29:50.897 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = https://prateek.delguy:****************@hub.lambdatest.com/wd/hub
+2022-11-29 15:29:50.935 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "acceptInsecureCerts": true,
+  "browserName": "firefox",
+  "browserVersion": "107.0",
+  "javascriptEnabled": true,
+  "moz:accessibilityChecks": false,
+  "moz:buildID": "20221110173214",
+  "moz:geckodriverVersion": "0.31.0",
+  "moz:headless": false,
+  "moz:platformVersion": "10.0",
+  "moz:processID": 2024,
+  "moz:profile": "D:\\Temp\\1\\rust_mozprofileyKAaTJ",
+  "moz:shutdownTimeout": 60000,
+  "moz:useNonSpecCompliantPointerOrigin": false,
+  "moz:webdriverClick": true,
+  "moz:windowless": false,
+  "pageLoadStrategy": "normal",
+  "platform": "WINDOWS",
+  "platformName": "WINDOWS",
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "setWindowRect": true,
+  "strictFileInteractability": false,
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "unhandledPromptBehavior": "dismiss and notify",
+  "webdriver.remote.sessionid": "c2d957f1-37b8-437d-a839-e922007f11d5"
+}
+2022-11-29 15:29:50.937 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c2d957f1-37b8-437d-a839-e922007f11d5
+2022-11-29 15:29:51.011 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 107.0
+2022-11-29 15:29:51.012 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows Server 2016
+2022-11-29 15:29:51.012 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-11-29 15:29:51.013 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-11-29 15:29:51.087 DEBUG testcase.FirstTEstcase                   - 4: navigateToUrl("https://www.lambdatest.com/")
+2022-11-29 15:29:51.904 DEBUG testcase.FirstTEstcase                   - 5: click(findTestObject("Object Repository/Page_Most Powerful Cross Browser Testing To_ceb566/a_Login"))
+2022-11-29 15:29:53.684 DEBUG testcase.FirstTEstcase                   - 6: setText(findTestObject("Object Repository/Page_Log in/input_OR_email"), "oajsndlsa")
+2022-11-29 15:29:54.450 DEBUG testcase.FirstTEstcase                   - 7: setEncryptedText(findTestObject("Object Repository/Page_Log in/input_OR_password"), "/tNVrUc0m7wD0ziNZElxww==")
+2022-11-29 15:29:55.195 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FirstTEstcase
+2022-11-29 15:29:55.203 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2022-11-29 15:29:55.203 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TwoTestCase
+2022-11-29 15:29:55.455 DEBUG testcase.TwoTestCase                     - 1: sendRequest(findTestObject("IPAPIRequest"))
+2022-11-29 15:29:55.597 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\foreman\Hyperexecute-Katalon-sample\Reports\20221129_152933\testTwo\20221129_152934\requests\main\1.har
+2022-11-29 15:29:55.601 DEBUG testcase.TwoTestCase                     - 2: openBrowser("")
+2022-11-29 15:29:55.609 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/katalon/test-reports/update-result?projectId=634201, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+2022-11-29 15:29:56.357 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'firefox']
+2022-11-29 15:29:56.357 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', 'latest']
+2022-11-29 15:29:56.358 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'win10']
+2022-11-29 15:29:56.358 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['build', 'Test']
+2022-11-29 15:29:56.358 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['name', 'Sampletest']
+2022-11-29 15:29:56.359 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['visual', 'true']
+2022-11-29 15:29:56.359 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['console', 'true']
+2022-11-29 15:29:56.360 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['network', 'true']
+2022-11-29 15:29:56.363 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'hub.lambdatest.com/wd/hub' with type 'Selenium'
+2022-11-29 15:29:56.364 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 29, 2022 3:30:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-11-29 15:30:02.763 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = https://prateek.delguy:****************@hub.lambdatest.com/wd/hub
+2022-11-29 15:30:02.765 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "acceptInsecureCerts": true,
+  "browserName": "firefox",
+  "browserVersion": "107.0",
+  "javascriptEnabled": true,
+  "moz:accessibilityChecks": false,
+  "moz:buildID": "20221110173214",
+  "moz:geckodriverVersion": "0.31.0",
+  "moz:headless": false,
+  "moz:platformVersion": "10.0",
+  "moz:processID": 8120,
+  "moz:profile": "D:\\Temp\\1\\rust_mozprofilev7Hkjn",
+  "moz:shutdownTimeout": 60000,
+  "moz:useNonSpecCompliantPointerOrigin": false,
+  "moz:webdriverClick": true,
+  "moz:windowless": false,
+  "pageLoadStrategy": "normal",
+  "platform": "WINDOWS",
+  "platformName": "WINDOWS",
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "setWindowRect": true,
+  "strictFileInteractability": false,
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "unhandledPromptBehavior": "dismiss and notify",
+  "webdriver.remote.sessionid": "b5a460e8-2f2f-4a90-a0fe-30a1feee6a7a"
+}
+2022-11-29 15:30:02.766 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b5a460e8-2f2f-4a90-a0fe-30a1feee6a7a
+2022-11-29 15:30:02.833 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 107.0
+2022-11-29 15:30:02.834 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows Server 2016
+2022-11-29 15:30:02.837 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-11-29 15:30:02.841 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-11-29 15:30:03.145 DEBUG testcase.TwoTestCase                     - 3: navigateToUrl("https://www.pwc.com/")
+2022-11-29 15:30:05.278 DEBUG testcase.TwoTestCase                     - 4: click(findTestObject("Object Repository/Page_PwC Building trust for today and tomorrow/button_Global"))
+
+--------------------------------------------------------------------------------
+Test Suites/testTwo - firefox - 20221129_152934.........................1/2(50%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/testTwo - firefox - 20221129_152934.........................1/2(50%)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Test Suites/testTwo - firefox - 20221129_152934.........................1/2(50%)
+--------------------------------------------------------------------------------
+
+2022-11-29 15:30:36.343 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='wrapper']/div/div[2]/div/header/div[2]/nav[2]/div/span/button'. Please recheck the objects properties to make sure the desired element is located. 
+2022-11-29 15:30:39.511 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to click on object 'Object Repository/Page_PwC Building trust for today and tomorrow/button_Global' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PwC Building trust for today and tomorrow/button_Global'2022-11-29 15:30:39.531 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TwoTestCase
+2022-11-29 15:30:39.784 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating HTML report folder at: D:\foreman\Hyperexecute-Katalon-sample\Reports\20221129_152933\testTwo\20221129_152934...
+
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TwoTestCase.run(TwoTestCase:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669735774157.run(TempTestSuite1669735774157.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PwC Building trust for today and tomorrow/button_Global' located by '//div[@id='wrapper']/div/div[2]/div/header/div[2]/nav[2]/div/span/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1653582909470.run(Script1653582909470.groovy:26)
+	... 13 more
+)
+2022-11-29 15:30:39.516 ERROR c.k.katalon.core.main.TestCaseExecutor   - ? Test Cases/TwoTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PwC Building trust for today and tomorrow/button_Global'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TwoTestCase.run(TwoTestCase:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669735774157.run(TempTestSuite1669735774157.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PwC Building trust for today and tomorrow/button_Global' located by '//div[@id='wrapper']/div/div[2]/div/header/div[2]/nav[2]/div/span/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/katalon/test-reports/update-result?projectId=634201, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+2022-11-29 15:30:40.870 INFO  com.kms.katalon.core.util.KeywordUtil    - HTML report generated
+2022-11-29 15:30:40.872 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating CSV report folder at: D:\foreman\Hyperexecute-Katalon-sample\Reports\20221129_152933\testTwo\20221129_152934...
+2022-11-29 15:30:40.905 INFO  com.kms.katalon.core.util.KeywordUtil    - CSV report generated
+2022-11-29 15:30:42.846 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2022-11-29 15:30:42.846 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/testTwo
+2022-11-29 15:30:42.846 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+Launcher status after execution process completed: Running
+Start writing execution.uuid file to folder: D:\foreman\Hyperexecute-Katalon-sample\Reports\20221129_152933\testTwo\20221129_152934
+Start generating JUnit report folder at: D:\foreman\Hyperexecute-Katalon-sample\Reports\20221129_152933\testTwo\20221129_152934...
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/katalon/test-reports/update-result?projectId=634201, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+JUnit report were generated at folder: D:\foreman\Hyperexecute-Katalon-sample\Reports\20221129_152933\testTwo\20221129_152934
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+Uploading report to Katalon TestOps...
+Start sending test result to Katalon TestOps
+Uploading log files of test suite
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/files/upload-urls?projectId=634201&numberUrl=11, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+System is unable to send report to Katalon TestOps. Reason: com.kms.katalon.integration.analytics.exceptions.AnalyticsApiExeception: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:670)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:692)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.getMultipleUploadInfo(AnalyticsApiProvider.java:427)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportService.perform(AnalyticsReportService.java:103)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportService.uploadReports(AnalyticsReportService.java:69)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportService.upload(AnalyticsReportService.java:54)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportIntegration.uploadTestSuiteResult(AnalyticsReportIntegration.java:165)
+	at com.kms.katalon.execution.launcher.ReportableLauncher.uploadReportToIntegratingProduct(ReportableLauncher.java:522)
+	at com.kms.katalon.execution.launcher.ReportableLauncher.preExecutionComplete(ReportableLauncher.java:160)
+	at com.kms.katalon.execution.launcher.ProcessLauncher.onWatchdogComplete(ProcessLauncher.java:194)
+	at com.kms.katalon.execution.launcher.LaunchWatchdog.notifyProcessTerminated(LaunchWatchdog.java:136)
+	at com.kms.katalon.execution.launcher.LaunchWatchdog.run(LaunchWatchdog.java:66)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Tue Nov 29 15:30:44 UTC 2022
+com.kms.katalon.integration.analytics.exceptions.AnalyticsApiExeception: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:670)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:692)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.getMultipleUploadInfo(AnalyticsApiProvider.java:427)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportService.perform(AnalyticsReportService.java:103)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportService.uploadReports(AnalyticsReportService.java:69)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportService.upload(AnalyticsReportService.java:54)
+	at com.kms.katalon.integration.analytics.report.AnalyticsReportIntegration.uploadTestSuiteResult(AnalyticsReportIntegration.java:165)
+	at com.kms.katalon.execution.launcher.ReportableLauncher.uploadReportToIntegratingProduct(ReportableLauncher.java:522)
+	at com.kms.katalon.execution.launcher.ReportableLauncher.preExecutionComplete(ReportableLauncher.java:160)
+	at com.kms.katalon.execution.launcher.ProcessLauncher.onWatchdogComplete(ProcessLauncher.java:194)
+	at com.kms.katalon.execution.launcher.LaunchWatchdog.notifyProcessTerminated(LaunchWatchdog.java:136)
+	at com.kms.katalon.execution.launcher.LaunchWatchdog.run(LaunchWatchdog.java:66)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/katalon/test-reports/update-result?projectId=634201, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+
+--------------------------------------------------------------------------------
+Test Suites/testTwo - firefox - 20221129_152934........................2/2(100%)
+--------------------------------------------------------------------------------
+
+Execution completed. Exit code: 1.
+Start clean up session
+End check license task
+End clean up session
+Start release license task
+License released
+End release license task
+All launchers terminated
+Command Failed

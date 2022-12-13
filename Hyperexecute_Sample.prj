@@ -6,7 +6,7 @@
    <UUID>705f64ba-34d7-41f1-87a3-bdc1b86a69ce</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\LenovoE14\Katalon Studio\Hyperexecute_Sample\Hyperexecute_Sample.prj</projectFileLocation>
+   <projectFileLocation>/Users/prateeksingh/Hyperexecute-Katalon-sample/Hyperexecute_Sample.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
