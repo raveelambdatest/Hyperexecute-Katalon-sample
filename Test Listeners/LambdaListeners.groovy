@@ -25,7 +25,7 @@ import com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
 
 import com.kms.katalon.core.configuration.RunConfiguration
 
-class LambdaListeners {
+class LambdaListener {
 
     TestSuiteContext suiteContext;
 
@@ -38,11 +38,12 @@ class LambdaListeners {
         
         
         //To set the test name at LambdaTest.
-        RunConfiguration.setDriverPreferencesProperty("Remote","build", System.getenv("LT_BUILD_NAME"));
-
+		String buildName=System.getenv("LT_BUILD_NAME");
+		RunConfiguration.setDriverPreferencesProperty("Remote","build", buildName);
+		println(buildName);
         RunConfiguration.setDriverPreferencesProperty("Remote", "name", testCaseContext.getTestCaseId());
         if (suiteContext != null){
-            RunConfiguration.setDriverPreferencesProperty("Remote","build", System.getenv("LT_BUILD_NAME"));
+            RunConfiguration.setDriverPreferencesProperty("Remote","build", buildName);
         }
         println testCaseContext.getTestCaseId();
         println RunConfiguration.getDriverPreferencesProperties();
@@ -79,8 +80,10 @@ class LambdaListeners {
     @BeforeTestSuite
     def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
         suiteContext=testSuiteContext
+		String buildName=System.getenv("LT_BUILD_NAME");
+		println(buildName);
         //To Set the build Name at LambdaTest.
-            RunConfiguration.setDriverPreferencesProperty("Remote","build", System.getenv("LT_BUILD_NAME");
+        RunConfiguration.setDriverPreferencesProperty("Remote","build", buildName);
         println testSuiteContext.getTestSuiteId()
     }
 
